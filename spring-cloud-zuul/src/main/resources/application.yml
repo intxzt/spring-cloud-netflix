@@ -14,4 +14,4 @@ zuul:
   routes:
     api-1:
       path: /admin/**
-      serviceId: cloud-admin-client
+      serviceId: cloud-admin-service
