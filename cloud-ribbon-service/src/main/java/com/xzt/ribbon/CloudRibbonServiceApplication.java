@@ -1,4 +1,4 @@
-package com.xzt.cloudribbonservice;
+package com.xzt.ribbon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

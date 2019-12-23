@@ -1,6 +1,6 @@
-package com.xzt.cloudribbonservice.test.service;
+package com.xzt.ribbon.test.service;
 
-import com.xzt.cloudribbonservice.test.beans.User;
+import com.xzt.ribbon.test.beans.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

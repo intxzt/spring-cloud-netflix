@@ -1,4 +1,4 @@
-package com.xzt.cloudribbonservice.config;
+package com.xzt.ribbon.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

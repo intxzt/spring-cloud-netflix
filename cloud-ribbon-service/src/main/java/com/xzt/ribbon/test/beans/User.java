@@ -1,4 +1,4 @@
-package com.xzt.cloudribbonservice.test.beans;
+package com.xzt.ribbon.test.beans;
 
 public class User {
     private String userName;
