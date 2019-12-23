@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Objects;
+
 @RestController
 public class AdminController {
     @Autowired
@@ -24,6 +26,7 @@ public class AdminController {
         user.setUserName(userName);
         user.setPassword(password);
         User res = adminService.postHi(user);
+        if (Objects.isNull(res)) return "request error.";
         return String.format("%s ,welcome! I am from port %s", userName, res.getPort());
     }
 }
