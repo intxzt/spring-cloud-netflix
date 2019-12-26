@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: cloud-config-service
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/intxzt/spring-cloud-netflix-config.git
+          search-paths: repo
+          username:
+          password:
+# 本地
+#  profiles:
+#    active: native #Comma-separated list of active profiles. Can be overridden by a command line switch.
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:/config
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
