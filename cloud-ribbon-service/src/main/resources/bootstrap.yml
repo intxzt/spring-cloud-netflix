@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true #Flag to indicate that config server discovery is enabled (config server URL will be looked up via discovery).
+        service-id: cloud-config-service
+      name: ribbon-config
+      label: master
+      profile: dev
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

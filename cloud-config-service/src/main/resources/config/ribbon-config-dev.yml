@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: cloud-ribbon-service
+
+server:
+  port: 8764
