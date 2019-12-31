@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: cloud-sleuth-service
+
+server:
+  port: 8084

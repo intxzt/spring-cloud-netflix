@@ -4,7 +4,7 @@ spring:
       discovery:
         enabled: true #Flag to indicate that config server discovery is enabled (config server URL will be looked up via discovery).
         service-id: cloud-config-service
-      name: zuul-config
+      name: public-config,zuul-config
       label: master
       profile: dev
 
