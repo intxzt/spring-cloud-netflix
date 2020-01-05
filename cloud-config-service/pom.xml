@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.xzt</groupId>
     <artifactId>cloud-config-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-RELEASE</version>
     <name>cloud-config-service</name>
     <description>Demo project for Spring Boot</description>
 
