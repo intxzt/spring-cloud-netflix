@@ -4,7 +4,7 @@ spring:
       name: public-config,sleuth-config
       label: master
       profile: dev
-      uri: http://localhost:8888
+      uri: http://206.35.199.3:8888
 
 eureka:
   client:
