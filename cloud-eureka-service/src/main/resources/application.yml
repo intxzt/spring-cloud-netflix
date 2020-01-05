@@ -1,6 +1,9 @@
 spring:
   application:
     name: cloud-eureka-service
+  cloud:
+    inetutils:
+      preferred-networks: 206.35.199
 
 server:
   port: 8761
@@ -8,6 +11,7 @@ server:
 eureka:
   instance:
     hostname: localhost
+    prefer-ip-address: true
   client:
     #registerWithEureka: false
     fetchRegistry: false

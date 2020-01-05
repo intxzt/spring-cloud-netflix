@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    inetutils:
+      preferred-networks: 206.35.199
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+eureka:
+  instance:
+    prefer-ip-address: true
