@@ -1,4 +1,6 @@
 spring:
+  zipkin:
+    base-url: http://206.35.199.4:9411
   cloud:
     inetutils:
       preferred-networks: 206.35.199
